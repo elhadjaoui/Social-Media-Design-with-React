@@ -1,0 +1,125 @@
+.rightbar
+{
+    flex: 3;
+}
+.rightbatWrap
+{
+    padding:  20px 20px 0 0;
+}
+
+.Birthdaycontainer
+{
+    display: flex;
+    align-items: center;
+}
+
+.birthdayImage
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.birthdayText
+{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.rightbarAd
+{
+    border-radius: 10px;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.olinefriendsList
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.onlineFriendsTitle
+{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom:  15px;
+}
+
+.onlineFriend
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+}
+
+.olinefriendImg
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.onlinefriendName
+{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.isOnline
+{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 1px;
+    left: 23px;
+    border: 2px solid white;
+}
+
+
+
+
+
+.rightbarInfo{
+    margin-bottom: 30px;
+  }
+  
+  .rightbarInfoItem{
+    margin-bottom: 10px;
+  }
+  
+  .rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+  }
+  
+  .rightbarInfoValue{
+    font-weight: 300;
+  }
+  
+  .rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
